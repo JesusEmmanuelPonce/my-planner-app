@@ -5,7 +5,7 @@ import { styles } from './styles';
 
 const Header = () => {
     return (
-        <SafeAreaView style={styles.header}>
+        <SafeAreaView>
             <Text style={styles.text}>My planner</Text>
         </SafeAreaView>
     )

@@ -1,22 +1,20 @@
 import React from 'react';
-import {
-  View,
-  StyleSheet,
-} from 'react-native';
+import { View } from 'react-native';
 
 import Header from './src/components/Header/Header';
+import AddForm from './src/components/AddForm/AddForm';
+import { styles } from './styles';
 
 const App = () => {
 
   return (
-    <View>
-      <Header />
-      
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Header />
+        <AddForm />
+      </View>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-});
 
 export default App;
