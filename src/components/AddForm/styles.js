@@ -16,6 +16,26 @@ export const styles = StyleSheet.create({
         shadowOpacity: 0.30,
         shadowRadius: 4.65,
         transform: [{ translateY: 50 }],
-
     },
+    label: {
+        fontSize: 20,
+        textAlign: "center",
+        marginBottom: 10,
+    },
+    input: {
+        backgroundColor: "#f5f5f5",
+        borderRadius: 10,
+        padding: 10,
+    },
+    button: {
+        backgroundColor: "#4a148c",
+        borderRadius: 10,
+        marginTop: 20,
+        padding: 10,
+    },
+    buttonText: {
+        color: "#fff",
+        fontSize: 20,
+        textAlign: "center",
+    }
 })

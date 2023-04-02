@@ -4,11 +4,15 @@ import { styles } from "./styles"
 const AddForm = () => {
     return (
         <View style={styles.container}>
-            <Text>Add Budget</Text>
-            <TextInput />
+            <Text style={styles.label}>Add Budget</Text>
+            <TextInput
+                keyboardType="numeric"
+                placeholder="00"
+                style={styles.input}
+            />
 
-            <Pressable>
-                <Text>Accept</Text>
+            <Pressable style={styles.button}>
+                <Text style={styles.buttonText}>Accept</Text>
             </Pressable>
         </View>
     )
