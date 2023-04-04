@@ -7,11 +7,17 @@ import { styles } from './styles';
 
 const App = () => {
 
+  const handleNewBudget = (value) => {
+    console.log(value);
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <Header />
-        <AddForm />
+        <AddForm
+          handleNewBudget={handleNewBudget}
+        />
       </View>
     </View>
   );
